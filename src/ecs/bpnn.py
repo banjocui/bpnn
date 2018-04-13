@@ -18,6 +18,7 @@ def sigmoid(x):
 def sigmoid_derivative(x):
     return x * (1 - x)
 
+
 class BPNeuralNetwork:
     def __init__(self):
         self.input_n = 0
